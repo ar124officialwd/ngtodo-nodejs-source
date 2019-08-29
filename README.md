@@ -1,5 +1,5 @@
 # ngtodo-nodejs-source
-Source of my Todo application [NGTODO](https://github.com/ar124official2019/ngtodo-angular-source/ "Frontend")
+Server Source of my Todo application [NGTODO](https://github.com/ar124official2019/ngtodo-angular-source/ "Frontend")
 
 This app is part of my learning Journy! I created this app for challanging my NodeJS and Angular skills.
 
