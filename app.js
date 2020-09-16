@@ -21,10 +21,16 @@ var express = require('express')
 var path = require('path')
 var cookieParser = require('cookie-parser')
 var logger = require('morgan')
+const cors = require('cors');
 
 var todosRouter = require(path.join(__dirname, 'routes', 'todos'))
 
 var app = express()
+
+const corsOptions = {
+  origin: 'http://localhost:4200'
+};
+app.use(cors(corsOptions));
 
 app.use(logger('dev'))
 app.use(express.json())
